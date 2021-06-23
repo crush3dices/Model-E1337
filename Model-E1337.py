@@ -260,7 +260,7 @@ prettyprint(second)
 print()
 fullOp = np.matmul(second,first) # the mod and multiplication commute
 print("===========================a full iteration: ==============================")
-prettyprint(second)
+prettyprint(fullOp)
 print()
 
 #these are the inital relations state fulfills
